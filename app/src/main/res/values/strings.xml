@@ -26,4 +26,8 @@
     <string name="step_you_need_to_check_your_email">step, you need to check your email</string>
     <string name="to_activate_your_account">to activate your account</string>
     <string name="verify">Verify</string>
+    <string name="verify_your_account">Verify your Account</string>
+    <string name="we_have_send_verification_code_to_your_email">We have send verification code to your email</string>
+    <string name="enter_verification_code_here">enter verification code here..</string>
+    <string name="send">Send</string>
 </resources>

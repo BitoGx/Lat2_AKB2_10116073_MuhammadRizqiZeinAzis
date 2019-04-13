@@ -11,10 +11,10 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
-        android:layout_marginLeft="60dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginRight="60dp"
-        android:layout_marginEnd="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginEnd="50dp"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp">
 
@@ -25,7 +25,7 @@
             android:text="@string/almost_there"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
-            android:textSize="30sp" />
+            android:textSize="35sp" />
 
         <TextView
             android:id="@+id/AlmostTxtFirstActivity"
@@ -33,24 +33,27 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:text="@string/thank_you_for_registering_with_us_one_more"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="13sp" />
 
         <TextView
             android:id="@+id/AlmostTxtSecondActivity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/step_you_need_to_check_your_email"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="13sp" />
 
         <TextView
             android:id="@+id/AlmostTxtThirdActivity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/to_activate_your_account"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="13sp" />
 
         <Button
-            android:id="@+id/AlmostBtnVerifynActivity"
+            android:id="@+id/AlmostBtnVerifyActivity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

@@ -35,9 +35,16 @@ import android.support.annotation.NonNull;
  * - Pendesainan halam Almost Activity
  * - Membuat Fungsi AlmostChangeActivity untuk pindah ke halaman Verify
  *
- * CHANGELOG April 13, 2019 6:12 PM
+ *CHANGELOG April 13, 2019 06:12 PM
  * - Mengubah Checkbox menjadi Plaintext dan menambahkan drawableleft
  * - Radio button tidak diubah karena masih sama dengan yang digambar
+ *
+ *CHANGELOG April 13, 2019 06:32 PM
+ * - Pendesainan halaman Verify
+ * - Memperbaiki ukuran font di halaman Almost There
+ * - Mengubah Id Button di halaman Verify
+ * - Membuat Fungsi VerifyChangeActify untuk pindah ke halaman Home
+ * - Memperbaiki Halaman Almost there untuk resolusi OPPO F1
  */
 
 public class LoginActivity extends AppCompatActivity
