@@ -45,6 +45,7 @@ import android.support.annotation.NonNull;
  * - Mengubah Id Button di halaman Verify
  * - Membuat Fungsi VerifyChangeActify untuk pindah ke halaman Home
  * - Memperbaiki Halaman Almost there untuk resolusi OPPO F1
+ *
  */
 
 public class LoginActivity extends AppCompatActivity
