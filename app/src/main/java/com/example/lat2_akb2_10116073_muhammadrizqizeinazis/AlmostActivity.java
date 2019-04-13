@@ -5,20 +5,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class RegisterActivity extends AppCompatActivity
+public class AlmostActivity extends AppCompatActivity
 {
   
   @Override
   protected void onCreate(Bundle savedInstanceState)
   {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_register);
+    setContentView(R.layout.activity_almost);
   }
   
-  public void RegisterChangeActivity(View view)
+  public void AlmostChangeActivity(View view)
   {
-    Intent Start = new Intent(this, AlmostActivity.class);
+    Intent Start = new Intent(this, VerifyActivity.class);
     startActivity(Start);
   }
-  
 }

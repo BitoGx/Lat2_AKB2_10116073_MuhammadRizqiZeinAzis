@@ -7,4 +7,23 @@
     <string name="or">OR</string>
     <string name="connect_with_facebook">Connect with facebook</string>
     <string name="login">LOGIN</string>
+    <string name="register">Register</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="reshus">Reshus</string>
+    <string name="email">Email</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="personal">Personal</string>
+    <string name="organization">Organization</string>
+    <string name="blood_type">Blood Type</string>
+    <string name="job">Job</string>
+    <string name="home_address">Home Address</string>
+    <string name="default_location">Default Location</string>
+    <string name="agree_with_terms_and_conditions">Agree with Terms and Conditions</string>
+    <string name="almost_there">Almost There</string>
+    <string name="thank_you_for_registering_with_us_one_more">Thank you for registering with us. One more</string>
+    <string name="step_you_need_to_check_your_email">step, you need to check your email</string>
+    <string name="to_activate_your_account">to activate your account</string>
+    <string name="verify">Verify</string>
 </resources>

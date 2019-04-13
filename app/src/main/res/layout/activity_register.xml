@@ -1,9 +1,305 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/RegisterBtnBackActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="@drawable/ic_header"
+            android:drawableStart="@drawable/ic_header_back"
+            android:drawableLeft="@drawable/ic_header_back"
+            android:drawablePadding="15dp"
+            android:paddingStart="15dp"
+            android:paddingLeft="15dp"
+            android:paddingEnd="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/register"
+            android:textAlignment="textStart"
+            android:textAllCaps="false" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                tools:layout_editor_absoluteX="129dp"
+                tools:layout_editor_absoluteY="0dp">
+
+            <EditText
+                android:id="@+id/RegisterEdtUsernameActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#B1B1B5"
+                android:ems="10"
+                android:hint="@string/username"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textColor="#949599"
+                android:textColorHint="#949599"
+                tools:targetApi="o" />
+
+            <EditText
+                android:id="@+id/RegisterEdtEmailActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#B1B1B5"
+                android:ems="10"
+                android:hint="@string/email"
+                android:importantForAutofill="no"
+                android:inputType="textEmailSubject"
+                android:text=""
+                android:textColor="#949599"
+                android:textColorHint="#949599"
+                tools:targetApi="o" />
+
+            <EditText
+                android:id="@+id/RegisterEdtPhoneNumberActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#B1B1B5"
+                android:ems="10"
+                android:hint="@string/phone_number"
+                android:importantForAutofill="no"
+                android:inputType="phone"
+                android:text=""
+                android:textColor="#949599"
+                android:textColorHint="#949599"
+                tools:targetApi="o" />
+
+            <RadioGroup
+                android:id="@+id/RegisterRadGrSexActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#949599"
+                android:orientation="horizontal"
+                tools:targetApi="lollipop">
+
+                <RadioButton
+                    android:id="@+id/RegisterRadBtnMaleActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:buttonTint="#949599"
+                    android:text="@string/male"
+                    android:textColor="#949599" />
+
+                <RadioButton
+                    android:id="@+id/RegisterRadBtnFemaleActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:buttonTint="#949599"
+                    android:text="@string/female"
+                    android:textColor="#949599" />
+            </RadioGroup>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/RegisterEdtBloodTypeActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#B1B1B5"
+                    android:drawableEnd="@drawable/ic_arrow_dropdown"
+                    android:drawableRight="@drawable/ic_arrow_dropdown"
+                    android:ems="5"
+                    android:hint="@string/blood_type"
+                    android:importantForAutofill="no"
+                    android:inputType="textPersonName"
+                    android:text=""
+                    android:textColor="#949599"
+                    android:textColorHint="#949599"
+                    tools:targetApi="o" />
+
+                <EditText
+                    android:id="@+id/RegisterEdtReshusActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#B1B1B5"
+                    android:drawableEnd="@drawable/ic_arrow_dropdown"
+                    android:drawableRight="@drawable/ic_arrow_dropdown"
+                    android:ems="5"
+                    android:hint="@string/reshus"
+                    android:importantForAutofill="no"
+                    android:inputType="phone"
+                    android:text=""
+                    android:textColor="#949599"
+                    android:textColorHint="#949599"
+                    tools:targetApi="o" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/RegisterEdtPasswordActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#B1B1B5"
+                android:ems="10"
+                android:hint="@string/password"
+                android:importantForAutofill="no"
+                android:inputType="textPassword"
+                android:text=""
+                android:textColor="#949599"
+                android:textColorHint="#949599"
+                tools:targetApi="o" />
+
+            <EditText
+                android:id="@+id/RegisteEdtRePasswordActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#B1B1B5"
+                android:ems="10"
+                android:hint="@string/retype_password"
+                android:importantForAutofill="no"
+                android:inputType="textPassword"
+                android:text=""
+                android:textColor="#949599"
+                android:textColorHint="#949599"
+                tools:targetApi="o" />
+
+            <RadioGroup
+                android:id="@+id/RegisterRadGrBusinessActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#949599"
+                android:orientation="horizontal"
+                tools:targetApi="lollipop">
+
+                <RadioButton
+                    android:id="@+id/RegisterRadBtnPersonalActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:buttonTint="#949599"
+                    android:text="@string/personal"
+                    android:textColor="#949599" />
+
+                <RadioButton
+                    android:id="@+id/RegisterRadBtnOrganizationActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="1"
+                    android:buttonTint="#949599"
+                    android:text="@string/organization"
+                    android:textColor="#949599" />
+             </RadioGroup>
+
+            <EditText
+                android:id="@+id/RegisterEdtJobActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#B1B1B5"
+                android:drawableEnd="@drawable/ic_arrow_dropdown"
+                android:drawableRight="@drawable/ic_arrow_dropdown"
+                android:ems="5"
+                android:hint="@string/job"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textColor="#949599"
+                android:textColorHint="#949599"
+                tools:targetApi="o" />
+
+            <EditText
+                android:id="@+id/RegisterEdtAdressActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#B1B1B5"
+                android:ems="10"
+                android:hint="@string/home_address"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textColor="#949599"
+                android:textColorHint="#949599"
+                tools:targetApi="o" />
+
+            <EditText
+                android:id="@+id/RegisterEdtlocationActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#B1B1B5"
+                android:drawableEnd="@drawable/ic_blood_needed_location"
+                android:drawableRight="@drawable/ic_blood_needed_location"
+                android:ems="5"
+                android:hint="@string/default_location"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textColor="#949599"
+                android:textColorHint="#949599"
+                tools:targetApi="o" />
+
+                <CheckBox
+                    android:id="@+id/RegisterChkTermsActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#949599"
+                    android:textColor="#949599"
+                    android:text="@string/agree_with_terms_and_conditions" tools:targetApi="lollipop" />
+
+                <Button
+                    android:id="@+id/RegisterBtnRegisterActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/rndbuttonblue"
+                    android:text="@string/register"
+                    android:textColor="#40B4E7"
+                    android:onClick="RegisterChangeActivity"
+                    android:layout_marginBottom="15dp"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

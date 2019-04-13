@@ -6,6 +6,13 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:radioButtonStyle">@style/RadioStateChecker</item>
+        <item name="android:checkboxStyle">@style/CheckboxStateChecker</item>
     </style>
-
+    <style name="RadioStateChecker" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="buttonTint">@drawable/statecheck</item>
+    </style>
+    <style name="CheckboxStateChecker" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="buttonTint">@drawable/statecheck</item>
+    </style>
 </resources>
