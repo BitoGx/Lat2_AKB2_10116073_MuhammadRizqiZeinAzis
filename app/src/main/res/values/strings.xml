@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lat2_AKB2_10116073_MuhammadRizqiZeinAzis</string>
+    <string name="image_blood">Image Blood</string>
+    <string name="logo">Logo</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="or">OR</string>
+    <string name="connect_with_facebook">Connect with facebook</string>
+    <string name="login">LOGIN</string>
+</resources>
