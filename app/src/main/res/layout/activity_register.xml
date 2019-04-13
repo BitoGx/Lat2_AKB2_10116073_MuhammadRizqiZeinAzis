@@ -279,25 +279,33 @@
                 android:textColorHint="#949599"
                 tools:targetApi="o" />
 
-                <CheckBox
-                    android:id="@+id/RegisterChkTermsActivity"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:buttonTint="#949599"
-                    android:textColor="#949599"
-                    android:text="@string/agree_with_terms_and_conditions" tools:targetApi="lollipop" />
+            <TextView
+                android:id="@+id/RegisterTxtTermsActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="@string/agree_with_terms_and_conditions"
+                android:textColor="#949599"
+                android:drawablePadding="22dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginEnd="6dp"
+                android:drawableLeft="@drawable/ic_register_terms_on"
+                android:drawableStart="@drawable/ic_register_terms_on" />
 
-                <Button
-                    android:id="@+id/RegisterBtnRegisterActivity"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="20dp"
-                    android:background="@drawable/rndbuttonblue"
-                    android:text="@string/register"
-                    android:textColor="#40B4E7"
-                    android:onClick="RegisterChangeActivity"
-                    android:layout_marginBottom="15dp"/>
+            <Button
+                android:id="@+id/RegisterBtnRegisterActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rndbuttonblue"
+                android:text="@string/register"
+                android:textColor="#40B4E7"
+                android:onClick="RegisterChangeActivity"
+                android:layout_marginBottom="15dp"/>
             </LinearLayout>
         </ScrollView>
     </LinearLayout>

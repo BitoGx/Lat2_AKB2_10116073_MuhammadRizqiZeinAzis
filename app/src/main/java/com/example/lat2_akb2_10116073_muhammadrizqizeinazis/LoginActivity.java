@@ -34,6 +34,10 @@ import android.support.annotation.NonNull;
  * - Membuat Fungsi RegisterChageActivity ke halaman Almost There
  * - Pendesainan halam Almost Activity
  * - Membuat Fungsi AlmostChangeActivity untuk pindah ke halaman Verify
+ *
+ * CHANGELOG April 13, 2019 6:12 PM
+ * - Mengubah Checkbox menjadi Plaintext dan menambahkan drawableleft
+ * - Radio button tidak diubah karena masih sama dengan yang digambar
  */
 
 public class LoginActivity extends AppCompatActivity
