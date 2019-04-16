@@ -30,4 +30,20 @@
     <string name="we_have_send_verification_code_to_your_email">We have send verification code to your email</string>
     <string name="enter_verification_code_here">enter verification code here..</string>
     <string name="send">Send</string>
+    <string name="muhammad_rizqi_zein_azis">Muhammad Rizqi Zein Azis</string>
+    <string name="blood_type_b">Blood Type : B</string>
+    <string name="_75">75</string>
+    <string name="_100">100</string>
+    <string name="_330">330</string>
+    <string name="blood_give">BLOOD GIVE</string>
+    <string name="blood_receive">BLOOD RECEIVE</string>
+    <string name="thanks">THANKS</string>
+    <string name="search_donor">Search Donor</string>
+    <string name="history_donor">History Donor</string>
+    <string name="blood_needed">Blood Needed</string>
+    <string name="search_donor_near_you">Search donor near you</string>
+    <string name="_4_users_need_blood">4 Users need blood</string>
+    <string name="message">Message</string>
+    <string name="_5_new_messages">5 New Messages</string>
+    <string name="_5_gives_2_received">5 Gives, 2 Received</string>
 </resources>

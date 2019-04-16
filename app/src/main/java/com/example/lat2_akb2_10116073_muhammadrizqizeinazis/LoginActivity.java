@@ -46,6 +46,15 @@ import android.support.annotation.NonNull;
  * - Membuat Fungsi VerifyChangeActify untuk pindah ke halaman Home
  * - Memperbaiki Halaman Almost there untuk resolusi OPPO F1
  *
+ *CHANGELOG April 15, 2019 09:45 AM
+ * - Memberikan shadow di halaman register
+ * - Mendesain halaman Home bagian atas
+ *
+ *CHANGELOG April 16. 2019 08:45 AM
+ * - Mendesain Halaman Login bagian bawah
+ * - Memberikan Scrollview untuk menu dibawah unuk resolusi OPPO F1
+ * - Menyalin semua CHANGELOG ke .java yang lain
+ *
  */
 
 public class LoginActivity extends AppCompatActivity
@@ -79,13 +88,10 @@ public class LoginActivity extends AppCompatActivity
         ds.setUnderlineText(false);
       }
     };
-    
     text.setSpan(new android.text.style.StyleSpan(android.graphics.Typeface.BOLD),23,31, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
     text.setSpan(ClickReg,23,31, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE );
     
     textView.setText(text);
     textView.setMovementMethod(LinkMovementMethod.getInstance());
   }
-  
-  
 }
